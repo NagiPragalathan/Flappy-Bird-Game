@@ -55,7 +55,7 @@ arduino
 
 Copy code
 
-`Flappy-Bird-Game/
+```Flappy-Bird-Game/
 ├── assets/
 │   ├── images/
 │   │   ├── background.png
@@ -72,7 +72,8 @@ Copy code
 │   └── main.js
 ├── index.html
 ├── README.md
-└── LICENSE` 
+└── LICENSE
+```
 
 ## Contribution
 
