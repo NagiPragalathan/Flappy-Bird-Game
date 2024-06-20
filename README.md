@@ -1,49 +1,61 @@
-Flappy Bird Game
-This repository contains the source code for a clone of the popular Flappy Bird game, developed using Python and the Pygame library. The game aims to replicate the original Flappy Bird experience, where players control a bird and navigate it through a series of pipes without crashing.
+# Flappy Bird Game
 
-Overview
+This repository contains the source code for a clone of the popular Flappy Bird game, developed using JavaScript. The game aims to replicate the original Flappy Bird experience, where players control a bird and navigate it through a series of pipes without crashing.
+
+## Overview
+
 Flappy Bird is a simple yet addictive game where the player must avoid obstacles by controlling the bird's flight. The game increases in difficulty as the player progresses, requiring quick reflexes and precise timing.
 
-Features
-Classic Gameplay: Replicates the original Flappy Bird gameplay mechanics.
-Scoring System: Keeps track of the player's score as they successfully navigate through pipes.
-Collision Detection: Ends the game when the bird collides with pipes or the ground.
-Graphics and Sound: Includes basic graphics and sound effects to enhance the gaming experience.
-Technologies Used
-Python: The core programming language used for development.
-Pygame: A set of Python modules designed for writing video games, used to handle graphics, sounds, and game mechanics.
-Installation and Setup
-Prerequisites
-Python 3.x
-Pygame library
-Steps
-Clone the Repository
+## Features
 
-bash
-Copy code
-git clone https://github.com/NagiPragalathan/Flappy-Bird-Game.git
-cd Flappy-Bird-Game
-Install Pygame
+- **Classic Gameplay**: Replicates the original Flappy Bird gameplay mechanics.
+- **Scoring System**: Keeps track of the player's score as they successfully navigate through pipes.
+- **Collision Detection**: Ends the game when the bird collides with pipes or the ground.
+- **Graphics and Sound**: Includes basic graphics and sound effects to enhance the gaming experience.
 
-Using pip:
+## Technologies Used
 
-bash
-Copy code
-pip install pygame
-Run the Game
+- **JavaScript**: The core programming language used for development.
+- **HTML**: Used to structure the web page.
+- **CSS**: Used to style the web page and game elements.
+- **Canvas API**: Utilized for rendering game graphics.
 
-bash
-Copy code
-python flappy_bird.py
-How to Play
-Start the Game: Run the flappy_bird.py script to start the game.
-Control the Bird: Press the spacebar to make the bird flap its wings and fly higher. Release the spacebar to let the bird descend.
-Avoid Obstacles: Navigate the bird through the gaps in the pipes without colliding.
-Score Points: Earn points for each set of pipes you successfully pass through.
-Project Structure
+## Installation and Setup
+
+### Prerequisites
+
+- Web Browser
+
+### Steps
+
+1. **Clone the Repository**
+    
+    bash
+    
+    Copy code
+    
+    `git clone https://github.com/NagiPragalathan/Flappy-Bird-Game.git
+    cd Flappy-Bird-Game` 
+    
+2. **Open the Game**
+    
+    Open the `index.html` file in your preferred web browser.
+    
+
+## How to Play
+
+- **Start the Game**: Open the `index.html` file to start the game.
+- **Control the Bird**: Click the mouse or press the spacebar to make the bird flap its wings and fly higher. Release to let the bird descend.
+- **Avoid Obstacles**: Navigate the bird through the gaps in the pipes without colliding.
+- **Score Points**: Earn points for each set of pipes you successfully pass through.
+
+## Project Structure
+
 arduino
+
 Copy code
-Flappy-Bird-Game/
+
+`Flappy-Bird-Game/
 ├── assets/
 │   ├── images/
 │   │   ├── background.png
@@ -54,11 +66,18 @@ Flappy-Bird-Game/
 │       ├── wing.wav
 │       ├── point.wav
 │       └── hit.wav
-├── flappy_bird.py
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── index.html
 ├── README.md
-└── requirements.txt
-Contribution
+└── LICENSE` 
+
+## Contribution
+
 Contributions to the Flappy Bird Game project are welcome! If you would like to contribute, please fork the repository and submit a pull request with your changes.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://chatgpt.com/c/LICENSE) file for details.
